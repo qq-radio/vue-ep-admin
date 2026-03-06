@@ -1,14 +1,15 @@
 {
-  "name": "@center/composables",
+  "name": "@center/utils",
   "version": "1.0.0",
-  "description": "all composables are settled here",
+  "description": "utility functions for vue-ep-admin",
   "private": true,
   "main": "index.ts",
   "sideEffects": false,
   "dependencies": {
-    "vue": "catalog:"
+    "lodash-es": "^4.17.21"
   },
   "devDependencies": {
+    "@types/lodash-es": "^4.17.7",
     "typescript": "catalog:"
   }
 }

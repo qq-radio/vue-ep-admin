@@ -1,14 +1,16 @@
 packages:
   - docs
-  - generator
   - internal/*
   - packages/*
-  - play
   - web
 
 catalog:
   element-plus: ^2.7.0
   vue: ^3.5.13
-
-overrides:
-  auto-create-vue-by-router: link:C:/Users/qiuyueling/AppData/Local/pnpm/global/5/node_modules/@center/auto-create-vue-by-router
+  typescript: ^5.6.3
+  vite: ^6.0.1
+  sass: ^1.83.0
+  prettier: ^3.3.3
+  "@vitejs/plugin-vue": ^5.2.1
+  "@vitejs/plugin-vue-jsx": ^4.1.1
+  vue-tsc: ^2.1.10

@@ -1,0 +1,8 @@
+{
+  "name": "@center/theme",
+  "version": "1.0.0",
+  "description": "theme styles for vue-ep-admin",
+  "private": true,
+  "main": "index.scss",
+  "sideEffects": true
+}

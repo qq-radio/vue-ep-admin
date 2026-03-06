@@ -1,42 +1,34 @@
 {
-  "name": "monorepo",
+  "name": "vue-ep-admin",
   "version": "1.0.0",
   "author": "qq-radio",
   "license": "ISC",
   "private": true,
-  "main": "index.js",
   "type": "module",
   "scripts": {
     "docs:dev": "pnpm run -C docs dev",
     "docs:build": "pnpm run -C docs build",
     "docs:preview": "pnpm run -C docs preview",
+    "web:dev": "pnpm run -C web dev",
+    "web:build": "pnpm run -C web build",
     "eslint": "eslint . --ext .js,.jsx,.ts,.tsx,.vue,.json",
     "eslint:fix": "eslint . --ext .js,.jsx,.ts,.tsx,.vue,.json --fix",
     "typecheck": "vue-tsc -p tsconfig.json --noEmit",
     "typecheck:docs": "vue-tsc -p docs/tsconfig.json --noEmit",
     "prettier": "prettier ./**/*.{js,ts,jsx,tsx,vue,scss,css,json,md} --write",
-    "create": "node internal/create-component/index.js"
-  },
-  "dependencies": {
-    "@center/components": "workspace:*",
-    "@center/composables": "workspace:*",
-    "@element-plus/icons-vue": "^2.3.1",
-    "auto-create-vue-by-router": "link:C:/Users/qiuyueling/AppData/Local/pnpm/global/5/node_modules/@center/auto-create-vue-by-router",
-    "element-plus": "catalog:",
-    "lodash-es": "^4.17.21",
-    "vue": "catalog:"
+    "create": "node internal/create-component-template/index.js"
   },
   "devDependencies": {
     "@center/eslint-config": "workspace:*",
-    "@types/node": "*",
-    "@vitejs/plugin-vue": "^5.0.4",
-    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "@types/node": "^22.15.34",
+    "@vitejs/plugin-vue": "catalog:",
+    "@vitejs/plugin-vue-jsx": "catalog:",
     "jscodeshift": "17.1.2",
     "lodash": "^4.17.21",
-    "prettier": "^3.3.3",
-    "sass": "^1.83.0",
-    "typescript": "^5.5.4",
-    "vite": "^5.2.5",
-    "vue-tsc": "^2.0.7"
+    "prettier": "catalog:",
+    "sass": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vue-tsc": "catalog:"
   }
 }
