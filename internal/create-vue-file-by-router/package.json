@@ -1,0 +1,45 @@
+{
+  "name": "auto-create-vue-by-router",
+  "version": "1.0.0",
+  "description": "根据路由自动创建vue文件的工具",
+  "author": "qq-radio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/auto-create"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "prepublishOnly": "npm run build"
+  },
+  "bin": {
+    "ac": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md"
+  ],
+  "keywords": [
+    "vue",
+    "router",
+    "cli",
+    "auto-create-vue",
+    "auto-create-vue-file-by-router"
+  ],
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "inquirer": "^9.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@types/inquirer": "^9.0.0",
+    "@types/node": "^20.0.0",
+    "rollup": "^4.52.5",
+    "typescript": "^5.0.0"
+  }
+}

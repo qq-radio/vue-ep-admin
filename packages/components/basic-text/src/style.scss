@@ -1,0 +1,21 @@
+@use '../../../theme/index.scss' as *;
+
+@include b(text) {
+  align-self: center;
+  margin: 0;
+  padding: 0;
+
+  @include m(truncated) {
+    display: inline-block;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  @include m(line-clamp) {
+    display: -webkit-inline-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}

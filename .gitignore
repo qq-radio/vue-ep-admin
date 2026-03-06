@@ -1,0 +1,31 @@
+.vite-ssg-temp
+
+node_modules
+.DS_Store
+
+dist
+dist-ssr
+
+*.log
+*.local
+
+
+docs/.vitepress/cache
+docs/.vitepress/dist
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
+
+
+# Private files
+privacy-*.json

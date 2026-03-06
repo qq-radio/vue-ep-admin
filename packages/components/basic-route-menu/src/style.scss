@@ -1,0 +1,64 @@
+@use '../../../theme/index.scss' as *;
+
+@include b(route-menu) {
+  height: 100%;
+  background-color: #fff;
+
+  &.top {
+    padding-top: 40px;
+  }
+
+  &.bottom {
+    padding-bottom: 50px;
+  }
+
+  @include e(collapse-button) {
+    padding: 5px 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+
+    .el-icon {
+      height: 26px;
+      width: 26px;
+      border-radius: 6px;
+      background-color: #f4f4f5;
+
+      &:hover {
+        font-weight: 600;
+        background-color: #ecf5ff;
+      }
+    }
+
+    &.top {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+
+    &.bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    &.start:not(.collapsed) {
+      text-align: left;
+    }
+
+    &.end:not(.collapsed) {
+      text-align: right;
+    }
+  }
+}
+
+@include b(route-menu-item) {
+  @include e(title) {
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

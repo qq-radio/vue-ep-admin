@@ -1,0 +1,52 @@
+.vxe-header-cell {
+  &--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // color: red;
+  }
+}
+
+.vxe-cell {
+  color: #171b1f;
+
+  &--col-resizable::before {
+    background-color: #e7e7e7 !important;
+  }
+
+  &--title {
+    width: 100%;
+    font-weight: 800;
+    // color: red;
+  }
+
+  &--checkbox {
+    &.is {
+      &--disabled {
+        .vxe-checkbox {
+          &--icon {
+            color: #94bfff !important;
+            background-color: #fff !important;
+          }
+        }
+      }
+    }
+  }
+
+  .vxe-icon-question-circle {
+    color: #747474 !important;
+  }
+}
+
+.vxe-table-icon-checkbox-unchecked-fill::before {
+  color: #f5f5f5 !important;
+}
+
+:root {
+  // vxe-table 变量
+  --vxe-ui-table-border-color: #f0f0f0 !important;
+  // --vxe-ui-table-header-background-color: red !important;
+  --vxe-ui-font-primary-color: #1677ff !important;
+  --vxe-ui-table-row-checkbox-checked-background-color: #e6f4ff !important;
+  --vxe-ui-table-header-font-weight: 800 !important;
+}

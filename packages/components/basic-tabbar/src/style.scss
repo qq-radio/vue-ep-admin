@@ -1,0 +1,183 @@
+@use '../../../theme/index.scss' as *;
+
+$height: 40px;
+
+$activeColor: #006be6;
+$activeBgColor: #d9e9fb;
+
+@include b(tabbar) {
+  height: $height;
+  line-height: $height;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px #e6e6e6;
+  background-color: #fff;
+
+  @include e(arrow) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 0.3s;
+
+    &.left {
+      height: $height;
+      line-height: $height;
+      width: 36px;
+      margin-right: 4px;
+      border-right: 1px solid #f0f0f0;
+    }
+
+    &.right {
+      height: $height;
+      line-height: $height;
+      width: 36px;
+      margin-left: 4px;
+      border-left: 1px solid #f0f0f0;
+    }
+
+    &:hover:not(.disabled) {
+      background: #f0f0f0;
+    }
+
+    &.disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+
+      .el-icon {
+        color: #747578;
+      }
+    }
+  }
+
+  @include e(container) {
+    display: flex;
+    flex: 1;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  @include m(normal) {
+  }
+
+  @include m(card) {
+  }
+
+  @include e(prefix) {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  @include e(suffix) {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@include b(tabbar-item-normal) {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 15px;
+  border: 1px solid #eee;
+  font-size: 13px;
+  cursor: pointer;
+  user-select: none;
+  color: #606266;
+
+  &:hover {
+    background-color: $activeBgColor;
+    color: $activeColor;
+    border-bottom: 2px solid $activeColor;
+  }
+
+  @include m(active) {
+    background-color: $activeBgColor;
+    color: $activeColor;
+    border-bottom: 2px solid $activeColor;
+  }
+
+  @include e(icon) {
+    margin-right: 4px;
+  }
+
+  @include e(text) {
+    width: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  @include e(fixed) {
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+  }
+
+  @include e(close) {
+    margin-left: 8px;
+    color: #606266;
+
+    &:hover {
+      transform: scale(1.4);
+      color: $activeColor;
+      background-color: #fff;
+      border-radius: 50%;
+    }
+  }
+}
+
+@include b(tabbar-item-card) {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  font-size: 13px;
+  cursor: pointer;
+  user-select: none;
+  color: #606266;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin: 0 4px;
+
+  &:hover {
+    background-color: $activeBgColor;
+    color: $activeColor;
+  }
+
+  @include m(active) {
+    background-color: $activeBgColor;
+    color: $activeColor;
+  }
+
+  @include e(icon) {
+    margin-right: 4px;
+  }
+
+  @include e(text) {
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  @include e(fixed) {
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+  }
+
+  @include e(close) {
+    margin-left: 8px;
+    color: #606266;
+
+    &:hover {
+      transform: scale(1.4);
+      color: $activeColor;
+      background-color: #fff;
+      border-radius: 50%;
+    }
+  }
+}

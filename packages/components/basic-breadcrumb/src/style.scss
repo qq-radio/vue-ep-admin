@@ -1,0 +1,13 @@
+@use '../../../theme/index.scss' as *;
+
+@include b(breadcrumb) {
+  @include e(item) {
+    display: flex;
+    align-items: center;
+  }
+
+  @include e(icon) {
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+}
