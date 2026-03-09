@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /guide/design-principle
+      link: /contents/guide/design-principle
     - theme: alt
       text: 组件
-      link: /components/overview
+      link: /contents/components/overview
 
 features:
   - title: Feature A

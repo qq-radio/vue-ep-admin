@@ -4,7 +4,7 @@
 
 <script setup lang="ts">
 import { BasicButtonGroup, Button } from '@center/components'
-
+const a = ref(1)
 const buttons: Button[] = [
   {
     text: '禁用',

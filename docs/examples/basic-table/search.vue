@@ -10,7 +10,7 @@
 <script setup lang="ts">
 import { BasicTable, TableSchema } from '@center/components'
 
-import { userListApi } from '@mocks/mock-user'
+import { userListApi } from '../mock/user'
 
 const schemas: TableSchema[] = [
   {

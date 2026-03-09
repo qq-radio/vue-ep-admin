@@ -16,13 +16,13 @@
     "skipLibCheck": true,
     "noImplicitAny": false,
     "paths": {
-      "@mocks/*": ["./mocks/*"]
+      "@mocks/*": ["../mocks/*"]
     },
     "types": ["vite/client"]
   },
   "vueCompilerOptions": {
     "target": 3
   },
-  "include": ["**/*", ".vitepress/**/*", "../types", "**/*.vue", "**/*.ts", "shims-vue.d.ts"],
+  "include": ["**/*", ".vitepress/**/*", "../types", "**/*.vue", "**/*.ts"],
   "exclude": ["node_modules"]
 }

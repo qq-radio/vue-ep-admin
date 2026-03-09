@@ -22,21 +22,21 @@ export default [
   {
     key: 'basic-image',
     name: '图片',
-    link: '/components/basic-image',
+    link: '/contents/components/basic-image',
   },
   {
     key: 'basic-copy',
     name: '复制',
-    link: '/components/basic-copy',
+    link: '/contents/components/basic-copy',
   },
   {
     key: 'basic-status',
     name: '状态',
-    link: '/components/basic-status',
+    link: '/contents/components/basic-status',
   },
   {
     key: 'basic-time',
     name: '时间',
-    link: '/components/basic-time',
+    link: '/contents/components/basic-time',
   },
 ]

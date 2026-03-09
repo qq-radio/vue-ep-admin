@@ -20,13 +20,11 @@
     "vue": "catalog:"
   },
   "devDependencies": {
-    "@center/eslint-config": "workspace:*",
     "@highlightjs/vue-plugin": "^2.1.0",
     "@types/lodash-es": "^4.17.7",
     "@types/markdown-it-container": "^2.0.10",
     "@vitejs/plugin-vue": "catalog:",
     "@vitejs/plugin-vue-jsx": "catalog:",
-    "eslint": "^8.18.0",
     "markdown-it-container": "^4.0.0",
     "typescript": "catalog:",
     "unplugin-auto-import": "^0.19.0",

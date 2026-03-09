@@ -30,3 +30,8 @@ docs/.vitepress/dist
 
 # Private files
 privacy-*.json
+
+
+auto-import-components.d.ts
+auto-import-eslintrc.json
+auto-import.d.ts

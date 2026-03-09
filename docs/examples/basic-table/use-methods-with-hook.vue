@@ -21,7 +21,7 @@
 <script setup lang="ts">
 import { BasicTable, useTable, TableSchema, BasicButtonGroup, Button } from '@center/components'
 
-import { userList, userListApi } from '@mocks/mock-user'
+import { userList, userListApi } from '../mock/user'
 
 import { InfoFilled } from '@element-plus/icons-vue'
 

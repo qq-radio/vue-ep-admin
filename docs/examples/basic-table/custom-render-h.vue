@@ -5,7 +5,7 @@
 <script setup lang="ts">
 import { BasicTable, TableSchema } from '@center/components'
 
-import { userList } from '@mocks/mock-user'
+import { userList } from '../mock/user'
 
 import { ElIcon } from 'element-plus'
 import { Phone, CircleCheckFilled, CircleCloseFilled } from '@element-plus/icons-vue'

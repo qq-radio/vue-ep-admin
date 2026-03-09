@@ -15,7 +15,7 @@
 <script setup lang="ts">
 import { BasicTable, FormSchema, TableSchema } from '@center/components'
 
-import { userListApi } from '@mocks/mock-user'
+import { userListApi } from '../mock/user'
 
 const searchSchemas: FormSchema[] = [
   {

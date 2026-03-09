@@ -13,7 +13,7 @@
 <script setup lang="ts">
 import { BasicTable, TableSchema } from '@center/components'
 
-import { userList } from '@mocks/mock-user'
+import { userList } from '../mock/user'
 
 const schemas: TableSchema[] = [
   {

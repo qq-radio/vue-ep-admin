@@ -28,7 +28,7 @@
 <script setup lang="ts">
 import { BasicTable, useTable, TableSchema, BasicSelect } from '@center/components'
 
-import { userList } from '@mocks/mock-user'
+import { userList } from '../mock/user'
 
 import { Hide, View } from '@element-plus/icons-vue'
 

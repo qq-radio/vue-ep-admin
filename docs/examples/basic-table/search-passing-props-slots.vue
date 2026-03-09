@@ -35,7 +35,7 @@
 <script setup lang="ts">
 import { BasicTable, TableSchema, BasicSelect } from '@center/components'
 
-import { userListApi } from '@mocks/mock-user'
+import { userListApi } from '../mock/user'
 
 const statusOptions = [
   { label: '在职中', value: 1 },

@@ -52,31 +52,31 @@ export default [
   {
     key: 'basic-input-number-range',
     name: '数字范围输入框',
-    link: '/components/basic-input-number-range',
+    link: '/contents/components/basic-input-number-range',
   },
   {
     key: 'basic-radio-group',
     name: '单选框组',
-    link: '/components/basic-radio-group',
+    link: '/contents/components/basic-radio-group',
   },
   {
     key: 'basic-checkbox-group',
     name: '多选框组',
-    link: '/components/basic-checkbox-group',
+    link: '/contents/components/basic-checkbox-group',
   },
   {
     key: 'basic-select',
     name: '选择器',
-    link: '/components/basic-select',
+    link: '/contents/components/basic-select',
   },
   {
     key: 'basic-tree-select',
     name: '树选择器',
-    link: '/components/basic-tree-select',
+    link: '/contents/components/basic-tree-select',
   },
   {
     key: 'basic-cascader',
     name: '级联选择器',
-    link: '/components/basic-cascader',
+    link: '/contents/components/basic-cascader',
   },
 ]

@@ -17,7 +17,7 @@ basic-form/basic
 您可以通过`componentProps`传递表单项`component`组件所需的属性
 
 :::warning
-若`componentProps`透传属性无法生效，请参考[表单透传属性无法生效](/guide/common-issue#透传属性无法生效)
+若`componentProps`透传属性无法生效，请参考[表单透传属性无法生效](/contents/guide/common-issue#透传属性无法生效)
 :::
 
 :::demo
@@ -29,7 +29,7 @@ basic-form/passing-props
 您可以通过`componentSlots`传递表单项`component`组件所需的插槽
 
 :::warning
-若`componentSlots`透传插槽无法生效，请参考[表单透传插槽无法生效](/guide/common-issue#透传插槽无法生效)
+若`componentSlots`透传插槽无法生效，请参考[表单透传插槽无法生效](/contents/guide/common-issue#透传插槽无法生效)
 :::
 
 :::demo
