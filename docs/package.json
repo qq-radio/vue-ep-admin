@@ -16,8 +16,8 @@
     "@center/constant": "workspace:*",
     "@element-plus/icons-vue": "^2.3.1",
     "element-plus": "catalog:",
-    "vue": "catalog:",
-    "lodash-es": "^4.17.21"
+    "lodash-es": "^4.17.21",
+    "vue": "catalog:"
   },
   "devDependencies": {
     "@center/eslint-config": "workspace:*",
@@ -32,6 +32,6 @@
     "unplugin-auto-import": "^0.19.0",
     "vite": "catalog:",
     "vite-plugin-checker": "^0.8.0",
-    "vitepress": "^1.5.0"
+    "vitepress": "*"
   }
 }
