@@ -28,7 +28,7 @@ import type { BasicTextProps } from './type'
 import { computed, onMounted, onUpdated, ref, useTemplateRef } from 'vue'
 import { useBasicNamespace } from '@center/composables'
 
-import { isUndefined, isNumber } from 'lodash'
+import { isUndefined, isNumber } from 'lodash-es'
 
 defineOptions({
   name: 'BasicText',

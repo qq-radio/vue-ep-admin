@@ -47,7 +47,7 @@ import {
 
 import { useOptionQuery } from '@center/composables'
 
-import { isFunction, isString, isEmpty } from 'lodash'
+import { isFunction, isString, isEmpty } from 'lodash-es'
 import { useAttrs, useSlots, computed, ref, watch } from 'vue'
 
 defineOptions({

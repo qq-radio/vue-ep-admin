@@ -14,7 +14,7 @@
 <script setup lang="ts">
 import { BasicTreeSelectProps, TreeSelectModelValue } from './type'
 
-import { isFunction, isArray, get } from 'lodash'
+import { isFunction, isArray, get } from 'lodash-es'
 import { useAttrs, useSlots, computed, ref, watch } from 'vue'
 
 defineOptions({

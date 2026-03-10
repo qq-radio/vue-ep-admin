@@ -51,7 +51,7 @@
 import type { TableSchema, TableColumnSettingItem } from '../types'
 
 import { ref, computed, watch, watchEffect } from 'vue'
-import { cloneDeep } from 'lodash'
+import { cloneDeep } from 'lodash-es'
 import { vDraggable } from 'vue-draggable-plus'
 import { Setting } from '@element-plus/icons-vue'
 

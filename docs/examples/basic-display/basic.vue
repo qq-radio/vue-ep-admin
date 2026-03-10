@@ -15,7 +15,7 @@
 <script setup lang="ts">
 import { BasicDisplay, DisplaySchema } from '@center/components'
 
-import { isFunction } from 'lodash'
+import { isFunction } from 'lodash-es'
 
 const getDisplayProps = (item) => {
   const { displayProps } = item

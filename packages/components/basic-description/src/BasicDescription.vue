@@ -43,9 +43,9 @@ import type {
 } from './type'
 
 import { computed, unref, useAttrs, useSlots } from 'vue'
-import { isFunction } from 'lodash'
+import { isFunction } from 'lodash-es'
 
-import { merge, get } from 'lodash'
+import { merge, get } from 'lodash-es'
 
 import { BasicDisplay, hasComponent } from '@center/components/basic-display'
 

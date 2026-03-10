@@ -12,10 +12,10 @@
     "@center/utils": "workspace:*",
     "element-plus": "catalog:",
     "vue": "catalog:",
-    "lodash-es": "^4.17.21"
+    "lodash-es": "catalog:"
   },
   "devDependencies": {
-    "@types/lodash-es": "^4.17.7",
+    "@types/lodash-es": "catalog:",
     "sass": "catalog:",
     "typescript": "catalog:"
   }

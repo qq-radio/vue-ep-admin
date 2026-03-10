@@ -38,7 +38,7 @@ import type { BasicImageUploadProps, BasicImageUploadEmits, ImageItem } from './
 import type { UploadFile, UploadRawFile } from 'element-plus'
 
 import { ref, computed, useAttrs, watchEffect } from 'vue'
-import { isArray, isFunction } from 'lodash'
+import { isArray, isFunction } from 'lodash-es'
 
 import { BasicImage } from '@center/components/basic-image'
 import { ElMessage } from 'element-plus'
@@ -147,6 +147,6 @@ const previewImages = computed(() => (props.disabled ? fileList.value.map((f) =>
 <style scoped>
 :deep(.el-upload-list .el-upload-dragger) {
   border: 0px;
-  padding-bottom: calc(var(--el-upload-dragger-padding-horizontal) - 4px)
+  padding-bottom: calc(var(--el-upload-dragger-padding-horizontal) - 4px);
 }
 </style>

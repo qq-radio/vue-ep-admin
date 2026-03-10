@@ -3,7 +3,7 @@ import type { ContextMenuItem, DropdownItemSchema } from '@center/components'
 
 import { HOME_ROUTE } from '@/router'
 import { startProgress, stopProgress } from '@/utils/nprogress'
-import { cloneDeep } from 'lodash'
+import { cloneDeep } from 'lodash-es'
 
 export const useTabbarStore = defineStore(
   'tabbar',

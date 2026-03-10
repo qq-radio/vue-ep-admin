@@ -2,7 +2,7 @@ import type { EnhancedFormSchema } from '../types'
 
 import { getPrefix } from './component-prefix'
 
-import { merge } from 'lodash'
+import { merge } from 'lodash-es'
 
 function addTextareaProps(schemaItem: EnhancedFormSchema) {
   if (schemaItem.component === 'textarea') {

@@ -3,7 +3,7 @@ import type { BasicFormProps, FormSchema } from '@center/components/basic-form/s
 import type { ComputedRef } from 'vue'
 
 import { ref, computed, watch } from 'vue'
-import { merge, isArray, isObject } from 'lodash'
+import { merge, isArray, isObject } from 'lodash-es'
 
 type Props = ComputedRef<
   Pick<BasicTableProps, 'searchProps' | 'searchParams' | 'searchSchemas' | 'schemas'>

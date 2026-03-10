@@ -1,0 +1,41 @@
+{
+  "words": [
+    // Vue 生态
+    "vueuse",
+    "pinia",
+    "vxe",
+    "elementplus",
+    "draggable",
+    "vite",
+    "vitejs",
+    "vitepress",
+    "rollup",
+
+    // TypeScript
+    "tsconfig",
+
+    // 代码质量
+    "commitlint",
+    "typescript-eslint",
+
+    // 插件
+    "unplugin",
+    "iconify",
+    "highlightjs",
+    "devtools",
+
+    // 工具库
+    "axios",
+    "lodash",
+    "nprogress",
+    "jscodeshift",
+
+    // 样式
+    "unocss",
+
+    // 其他
+    "echarts",
+    "popconfirm",
+    "persistedstate"
+  ]
+}

@@ -32,7 +32,7 @@ import { BasicRadioGroupProps, RadioOption, RadioModelValue, RadioCallbackParams
 
 import { useOptionQuery } from '@center/composables'
 
-import { isFunction, isString } from 'lodash'
+import { isFunction, isString } from 'lodash-es'
 import { useAttrs, useSlots, computed, ref, watch } from 'vue'
 
 defineOptions({

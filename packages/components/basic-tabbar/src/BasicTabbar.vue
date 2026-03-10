@@ -42,7 +42,7 @@ import { useBasicNamespace } from '@center/composables'
 
 import { ref, computed, onMounted, useSlots, watch } from 'vue'
 import { useDraggable } from 'vue-draggable-plus'
-import { isUndefined } from 'lodash'
+import { isUndefined } from 'lodash-es'
 import { ArrowLeft, ArrowRight } from '@element-plus/icons-vue'
 import TabbarItem from './TabbarItem.vue'
 

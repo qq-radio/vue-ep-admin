@@ -6,10 +6,10 @@
   "main": "index.ts",
   "sideEffects": false,
   "dependencies": {
-    "lodash-es": "^4.17.21"
+    "lodash-es": "catalog:"
   },
   "devDependencies": {
-    "@types/lodash-es": "^4.17.7",
+    "@types/lodash-es": "catalog:",
     "typescript": "catalog:"
   }
 }

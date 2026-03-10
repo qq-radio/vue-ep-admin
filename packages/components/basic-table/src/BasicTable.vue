@@ -139,7 +139,7 @@ import { useTableSelection } from './hooks/useTableSelection'
 import { useTablePagination } from './hooks/useTablePagination'
 
 import { useAttrs, useSlots, ref, computed, onMounted } from 'vue'
-import { pick } from 'lodash'
+import { pick } from 'lodash-es'
 
 import { BasicForm } from '@center/components/basic-form'
 import { BasicButtonGroup } from '@center/components/basic-button-group'

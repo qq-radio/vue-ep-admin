@@ -1,6 +1,6 @@
 import type { AppSetting } from '#/types/preference'
 
-import { cloneDeep } from 'lodash'
+import { cloneDeep } from 'lodash-es'
 
 const DEFAULT_SETTING: AppSetting = {
   navType: 'vertical',

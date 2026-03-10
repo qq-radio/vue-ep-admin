@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "license": "MIT",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
   "devDependencies": {
-    "eslint": "^8.18.0",
-    "eslint-plugin-vue": "^9.30.0",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-config-prettier": "^10.0.1",
-    "@typescript-eslint/eslint-plugin": "^8.20.0",
-    "@typescript-eslint/parser": "^8.20.0",
-    "@vue/eslint-config-typescript": "^11.0.3"
+    "eslint": "catalog:",
+    "eslint-plugin-vue": "catalog:",
+    "eslint-plugin-import": "catalog:",
+    "eslint-config-prettier": "catalog:",
+    "@typescript-eslint/eslint-plugin": "catalog:",
+    "@typescript-eslint/parser": "catalog:",
+    "@vue/eslint-config-typescript": "catalog:"
   }
 }

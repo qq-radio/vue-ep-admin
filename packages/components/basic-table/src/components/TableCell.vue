@@ -18,7 +18,7 @@ import type { TableCellProps, TableCellCallbackParams } from '../types'
 import { useCustomRender } from '@center/composables'
 
 import { useSlots, computed } from 'vue'
-import { isFunction } from 'lodash'
+import { isFunction } from 'lodash-es'
 
 import { BasicDisplay, hasComponent } from '@center/components/basic-display'
 

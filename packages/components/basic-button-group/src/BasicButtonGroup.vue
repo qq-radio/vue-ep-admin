@@ -27,7 +27,7 @@ import type { BasicButtonGroupProps, Button } from './type'
 import { useBasicNamespace, usePermission } from '@center/composables'
 
 import { h, computed, unref } from 'vue'
-import { isFunction } from 'lodash'
+import { isFunction } from 'lodash-es'
 
 import { BasicImport } from '@center/components/basic-import'
 import { BasicExport } from '@center/components/basic-export'

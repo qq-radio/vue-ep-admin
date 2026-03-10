@@ -16,15 +16,16 @@
     "typecheck": "vue-tsc -p tsconfig.json --noEmit",
     "typecheck:docs": "vue-tsc -p docs/tsconfig.json --noEmit",
     "prettier": "prettier ./**/*.{js,ts,jsx,tsx,vue,scss,css,json,md} --write",
-    "create": "node internal/create-component-template/index.js"
+    "create": "node internal/create-component-template/index.js",
+    "clean:modules": "node scripts/clean-node-modules.js"
   },
   "devDependencies": {
     "@center/eslint-config": "workspace:*",
-    "@types/node": "^22.15.34",
+    "@types/node": "catalog:",
     "@vitejs/plugin-vue": "catalog:",
     "@vitejs/plugin-vue-jsx": "catalog:",
-    "jscodeshift": "17.1.2",
-    "lodash": "^4.17.21",
+    "jscodeshift": "catalog:",
+    "lodash-es": "catalog:",
     "prettier": "catalog:",
     "sass": "catalog:",
     "typescript": "catalog:",

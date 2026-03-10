@@ -17,7 +17,7 @@ import type { BasicImageProps } from './type'
 import { useBasicNamespace } from '@center/composables'
 
 import { useSlots, useAttrs, computed } from 'vue'
-import { isArray } from 'lodash'
+import { isArray } from 'lodash-es'
 
 const ns = useBasicNamespace('image')
 

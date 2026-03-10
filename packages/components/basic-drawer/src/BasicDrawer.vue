@@ -30,7 +30,7 @@
 import { BasicDrawerProps, DrawerMethods } from './type'
 
 import { ref, watchEffect, computed, useAttrs, onMounted } from 'vue'
-import { debounce } from 'lodash'
+import { debounce } from 'lodash-es'
 
 defineOptions({
   name: 'BasicDrawer',

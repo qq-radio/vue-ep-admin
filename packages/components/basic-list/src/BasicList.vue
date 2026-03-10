@@ -19,7 +19,7 @@
 <script setup lang="ts">
 import { BasicListProps } from './type'
 
-import { isFunction } from 'lodash'
+import { isFunction } from 'lodash-es'
 
 defineOptions({
   name: 'BasicList',

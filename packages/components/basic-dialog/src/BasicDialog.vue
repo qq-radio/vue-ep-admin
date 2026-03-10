@@ -37,7 +37,7 @@ import { BasicDialogProps, DialogMethods } from './type'
 import { useBasicNamespace } from '@center/composables'
 
 import { ref, watchEffect, computed, useAttrs, onMounted } from 'vue'
-import { debounce } from 'lodash'
+import { debounce } from 'lodash-es'
 
 const ns = useBasicNamespace('dialog')
 

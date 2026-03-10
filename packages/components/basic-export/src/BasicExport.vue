@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import { BasicExportProps } from './type'
 
-import { isFunction, isUndefined } from 'lodash'
+import { isFunction, isUndefined } from 'lodash-es'
 
 import { ElMessage } from 'element-plus'
 import { Download } from '@element-plus/icons-vue'

@@ -3,7 +3,7 @@ import type { BasicFormProps, BasicFormEmits, FormSchema } from '../types'
 import { ErrorMessages, BasicComponentError } from '@center/components/error'
 
 import { computed, ComputedRef, onMounted, ref, unref, watch } from 'vue'
-import { isObject, isString, cloneDeep, uniqBy, merge, isArray } from 'lodash'
+import { isObject, isString, cloneDeep, uniqBy, merge, isArray } from 'lodash-es'
 
 type Props = ComputedRef<Pick<BasicFormProps, 'schemas' | 'modelValue'>>
 

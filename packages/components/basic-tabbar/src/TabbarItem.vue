@@ -24,7 +24,7 @@
 import { BasicTabbarProps, TabbarItemSchema } from './type'
 
 import { computed } from 'vue'
-import { isUndefined } from 'lodash'
+import { isUndefined } from 'lodash-es'
 import { Close } from '@element-plus/icons-vue'
 import { useBasicNamespace } from '@center/composables'
 

@@ -1,5 +1,5 @@
 import { ref, watch } from 'vue'
-import { isArray, isFunction, get } from 'lodash'
+import { isArray, isFunction, get } from 'lodash-es'
 import { mapObjectArrayFields } from '../utils'
 
 type Option = {

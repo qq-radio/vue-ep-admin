@@ -2,7 +2,7 @@ import type { TableSchema } from '../types'
 import type { FormSchema } from '@center/components/basic-form/src/types'
 import type { ComputedRef, Slots } from 'vue'
 
-import { isArray, isEmpty, pick } from 'lodash'
+import { isArray, isEmpty, pick } from 'lodash-es'
 import { shallowRef, watch } from 'vue'
 
 type Props = ComputedRef<{

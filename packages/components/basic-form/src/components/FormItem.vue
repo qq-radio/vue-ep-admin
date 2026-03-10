@@ -66,7 +66,7 @@ import { normalizeSchema } from '../tools/normalize-schema'
 import { normalizeRule } from '../tools/normalize-rule'
 
 import { useSlots, ref, watchEffect, computed, unref } from 'vue'
-import { isFunction, isUndefined } from 'lodash'
+import { isFunction, isUndefined } from 'lodash-es'
 import { InfoFilled } from '@element-plus/icons-vue'
 
 const ns = useBasicNamespace('form-item')

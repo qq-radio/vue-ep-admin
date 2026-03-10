@@ -40,7 +40,7 @@ import { useFormEvent } from './hooks/useFormEvent'
 import { useFormSelf } from './hooks/useFormSelf'
 
 import { useAttrs, useSlots, ref, computed, onMounted } from 'vue'
-import { pick } from 'lodash'
+import { pick } from 'lodash-es'
 import { ElMessage } from 'element-plus'
 
 import FormItem from './components/FormItem.vue'

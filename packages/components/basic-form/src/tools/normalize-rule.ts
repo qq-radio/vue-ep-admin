@@ -2,7 +2,7 @@ import type { EnhancedFormSchema } from '../types'
 import type { FormItemRule } from 'element-plus'
 
 import { getPrefix } from './component-prefix'
-import { isArray } from 'lodash'
+import { isArray } from 'lodash-es'
 
 const TRIGGER = ['change', 'blur']
 

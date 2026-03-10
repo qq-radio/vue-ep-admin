@@ -2,7 +2,7 @@ import type { BasicTableProps, BasicTableEmits } from '../types'
 import type { Page } from '@center/components/basic-pagination'
 
 import { ref, computed, unref } from 'vue'
-import { merge } from 'lodash'
+import { merge } from 'lodash-es'
 
 type Props = Pick<BasicTableProps, 'paginationProps'>
 

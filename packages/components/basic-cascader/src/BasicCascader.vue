@@ -15,7 +15,7 @@
 <script setup lang="ts">
 import { BasicCascaderProps, CascaderModelValue } from './type'
 
-import { isFunction, isArray, get } from 'lodash'
+import { isFunction, isArray, get } from 'lodash-es'
 import { useAttrs, useSlots, computed, ref, watch } from 'vue'
 
 defineOptions({

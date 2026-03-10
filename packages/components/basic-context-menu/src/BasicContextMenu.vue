@@ -40,7 +40,7 @@ import { ref, computed, watch, useSlots } from 'vue'
 import { onClickOutside } from '@vueuse/core'
 
 import MenuItem from './MenuItem.vue'
-import { isFunction, isNumber } from 'lodash'
+import { isFunction, isNumber } from 'lodash-es'
 
 const ns = useBasicNamespace('context-menu')
 

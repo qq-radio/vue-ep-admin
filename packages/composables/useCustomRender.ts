@@ -1,5 +1,5 @@
 import { Slots, VNode } from 'vue'
-import { isFunction } from 'lodash'
+import { isFunction } from 'lodash-es'
 
 type UseCustomRender = (context: { render?: (params: any) => VNode; slots?: Slots }) => {
   renderItem: RenderItem

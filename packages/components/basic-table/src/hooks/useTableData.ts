@@ -8,7 +8,7 @@ import type { Page } from '@center/components/basic-pagination'
 import type { ComputedRef, Ref } from 'vue'
 
 import { ref, computed, watch, unref, onMounted } from 'vue'
-import { isFunction, cloneDeep, isArray, merge, isEmpty } from 'lodash'
+import { isFunction, cloneDeep, isArray, merge, isEmpty } from 'lodash-es'
 
 type Props = ComputedRef<
   Pick<

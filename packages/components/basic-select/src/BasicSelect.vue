@@ -37,7 +37,7 @@ import { BasicSelectProps, SelectOption, SelectModelValue, SelectCallbackParams 
 
 import { useOptionQuery, useBasicNamespace } from '@center/composables'
 
-import { isFunction, isString, isEmpty } from 'lodash'
+import { isFunction, isString, isEmpty } from 'lodash-es'
 import { useAttrs, useSlots, computed, ref, watch } from 'vue'
 
 const ns = useBasicNamespace('select')

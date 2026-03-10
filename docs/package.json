@@ -14,22 +14,23 @@
     "@center/components": "workspace:*",
     "@center/composables": "workspace:*",
     "@center/constant": "workspace:*",
-    "@element-plus/icons-vue": "^2.3.1",
+    "@element-plus/icons-vue": "catalog:",
     "element-plus": "catalog:",
-    "lodash-es": "^4.17.21",
+    "lodash-es": "catalog:",
     "vue": "catalog:"
   },
   "devDependencies": {
-    "@highlightjs/vue-plugin": "^2.1.0",
-    "@types/lodash-es": "^4.17.7",
-    "@types/markdown-it-container": "^2.0.10",
+    "@highlightjs/vue-plugin": "catalog:",
+    "@types/lodash-es": "catalog:",
+    "@types/markdown-it-container": "catalog:",
     "@vitejs/plugin-vue": "catalog:",
     "@vitejs/plugin-vue-jsx": "catalog:",
-    "markdown-it-container": "^4.0.0",
+    "markdown-it-container": "catalog:",
+    "prettier": "catalog:",
     "typescript": "catalog:",
-    "unplugin-auto-import": "^0.19.0",
+    "unplugin-auto-import": "catalog:",
     "vite": "catalog:",
-    "vite-plugin-checker": "^0.8.0",
-    "vitepress": "*"
+    "vite-plugin-checker": "catalog:",
+    "vitepress": "catalog:"
   }
 }
